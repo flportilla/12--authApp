@@ -1,0 +1,8 @@
+
+POST https://weather-app-20.herokuapp.com/api/auth
+Content-Type: application/json
+
+{
+    "email": "test1@test.com",
+    "password": "12345678"
+}
