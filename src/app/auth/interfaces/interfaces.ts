@@ -7,3 +7,8 @@ export interface AuthResponse {
     name?:  string;
     token?: string;
 }
+
+export interface User {
+    uid: number,
+    name: string,
+}
